@@ -1,0 +1,15 @@
+body {
+  font-family: Inter, sans-serif;
+
+  display: grid;
+  place-content: center;
+
+  min-height: 90vh;
+
+  background-color: #151515;
+  color: #fff;
+}
+
+canvas {
+  padding-top: 64px;
+}

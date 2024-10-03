@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #242424;
+  color: #fff;
+
+  min-height: 100vh;
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 52px;
+  min-height: 94vh;
+}
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+.carousel {
+  width: 50%;
+}
+
+header {
+  text-align: center;
+  margin: 24px 0;
+}
+header p {
+  max-width: 800px;
+}
+/* galeria */
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 8px;
+  margin: 24px 0;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 24px 0;
+}
+
+.gallery img {
+  width: 400px;
+}
